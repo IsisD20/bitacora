@@ -1,0 +1,52 @@
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    border: black 3px solid;
+    margin: 0px auto;
+    width: 70%;
+}
+#cabecera {
+    background: #ff0000;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    border-bottom: 5px black dashed;
+    border-top: rgb(177, 176, 176) 10px solid;
+}
+#menu {
+    background: purple;
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    
+}
+#contenidod {
+    background: rgb(63, 165, 42);
+    float: left;
+    width: 70%; 
+    height: 300px;
+    max-height: 100%; 
+}
+#contenidoi {
+    background: rgb(255, 217, 0);
+    float: right;
+    width: 30%;
+    height: 300px;
+    max-height: 100%;
+}
+#pie {
+    background: rgb(0, 0, 0);
+    clear: both;
+}
+nav ul li{
+    margin: 15px;
+    float: left;
+}
+nav ul li a{
+    color: white;
+}
